@@ -22,9 +22,9 @@ export default function Home() {
         <NavbarBase
           logoSrc="/images/logo.svg"
           logoAlt="Xeven"
-          navItems={navLinks}
           leftButtonText=""
           rightButtonText="Start Free Trial"
+          onLeftButtonClick={() => { /* Handle click */ }}
           onRightButtonClick={() => { /* Handle click */ }}
           className="bg-transparent fixed w-full z-10"
         />
