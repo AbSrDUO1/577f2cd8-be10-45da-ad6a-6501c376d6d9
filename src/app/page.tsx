@@ -43,7 +43,7 @@ export default function Home() {
         ]} />
       </div>
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
-        <ExpandingGridTokenomics title="Tokenomics Overview" description="Learn more about our token distribution and economic model." cardItems={[
+        <ExpandingGridTokenomics title="Tokenomics Overview" description="Learn more " cardItems={[
           { id: 1, title: "Total Supply", description: "1,000,000 XEV" },
           { id: 2, title: "Market Cap", description: "$10,000,000" },
           { id: 3, title: "Liquidity", description: "3% Reward Distribution" }
