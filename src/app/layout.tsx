@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${interTight.variable} ${playfairDisplay.variable} antialiased`} 
-        style="background: var(--background); color: var(--foreground);"
+        style={{ background: "var(--background)", color: "var(--foreground)" }}
       >
         {children}
       

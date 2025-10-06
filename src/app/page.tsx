@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarBase from '@/components/navigation/NavbarBase';
 import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
@@ -22,7 +22,6 @@ export default function Home() {
         <NavbarBase
           logoSrc="/images/logo.svg"
           logoAlt="Xeven"
-          logoClassName="h-10"
           navItems={navLinks}
           leftButtonText=""
           rightButtonText="Start Free Trial"
