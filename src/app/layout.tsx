@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter_Tight, Playfair_Display } from "next/font/google";
+import { Inter_Tight, Poppins } from "next/font/google";
 import "./globals.css";
 
 const interTight = Inter_Tight({
@@ -8,15 +8,9 @@ const interTight = Inter_Tight({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const playfairDisplay = Playfair_Display({
-  variable: "--font-playfair",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
-});
-
 export const metadata: Metadata = {
   title: "Xeven",
-  description: "Plan a single-page SaaS landing site with a blue theme and clear conversion paths."
+  description: "Plan a single-page SaaS landing site with a blue theme and clear conversion paths.",
 };
 
 export default function RootLayout({
@@ -24,9 +18,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
-      <body className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}>
-        {children}
-      
+      <body className={`${interTight.variable} antialiased`}>{children}
         {/* Visual Editor Script - Only runs in iframe */}
         <script
           dangerouslySetInnerHTML={{
