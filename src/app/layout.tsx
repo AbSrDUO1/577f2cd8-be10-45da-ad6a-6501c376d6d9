@@ -16,20 +16,15 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Xeven",
-  description: "Plan a single-page SaaS landing site with a blue theme and clear conversion paths.",
+  description: "Plan a single-page SaaS landing site with a blue theme and clear conversion paths."
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
-      <body
-        className={`${interTight.variable} ${playfairDisplay.variable} antialiased`} 
-        style={{ background: "var(--background)", color: "var(--foreground)" }}
-      >
+      <body className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}>
         {children}
       
         {/* Visual Editor Script - Only runs in iframe */}
