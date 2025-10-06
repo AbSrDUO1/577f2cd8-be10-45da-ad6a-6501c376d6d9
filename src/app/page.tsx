@@ -30,7 +30,7 @@ export default function Home() {
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
-        <BillboardHero title="Welcome to Xeven" subtitle="Your gateway to innovative SaaS solutions" />
+        <BillboardHero title="Welcome to Xeven" subtitle="Your gateway to SaaS solutions" />
       </div>
       <div id="about" data-section="about" className="scroll-mt-24">
         <SplitAbout description="Xeven is designed for those looking to streamline their processes and amplify their productivity through cutting-edge technology." />
